@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mod">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="UE4">
+      <UniqueIdentifier>{688218c4-6b7f-44d1-a3b6-cd60d128e6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Utilites">
+      <UniqueIdentifier>{ff783d31-6800-4540-9424-d817c361bf12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleMod.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="external\UnrealModLoader\UnrealEngineModLoader\UE4\Basic.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="external\UnrealModLoader\UnrealEngineModLoader\UE4\CoreUObject_functions.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExampleMod.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="external\UnrealModLoader\UnrealEngineModLoader\UE4\Ue4.hpp">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Mod\Utilites</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

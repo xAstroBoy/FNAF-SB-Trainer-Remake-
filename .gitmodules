@@ -1,0 +1,3 @@
+[submodule "external/UnrealModLoader"]
+	path = external/UnrealModLoader
+	url = https://github.com/RussellJerome/UnrealModLoader.git
